@@ -28,14 +28,14 @@ export default function Index({ globalData }) {
         </h1>
       </main>
       <Footer copyrightText={globalData.footerText} />
-      {/* <GradientBackground
+      <GradientBackground
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"
-      /> */}
-      {/* <GradientBackground
+      />
+      <GradientBackground
         variant="small"
         className="absolute bottom-0 opacity-20 dark:opacity-10"
-      /> */}
+      />
     </Layout>
   );
 }
