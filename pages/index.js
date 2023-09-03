@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
+import '../services/firebase';
 
 export default function Index({ globalData }) {
   return (
