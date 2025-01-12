@@ -28,13 +28,13 @@ export default function Index({ globalData }) {
           {globalData.line4}
         </h1>
       </main>
-      <div className="mt-12">
+      <div className="mt-12 px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-extrabold text-center text-gradient mb-10">
           Artist Profiles
         </h2>
 
         {/* Profile: Saurabh Sam (Artist) */}
-        <div className="mb-10 py-10 px-8 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300 backdrop-blur bg-white/10">
+        <div className="mb-10 py-10 px-6 sm:px-8 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300 backdrop-blur bg-white/10">
           <div className="flex justify-center mb-6">
             <div className="bg-white/50 p-4 rounded-full shadow-lg backdrop-blur">
               <span className="text-4xl text-purple-700">🎤</span>
@@ -80,7 +80,7 @@ export default function Index({ globalData }) {
         </div>
 
         {/* Profile: Dxlla (Beat Producer) */}
-        <div className="py-10 px-8 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300 backdrop-blur bg-white/10">
+        <div className="py-10 px-6 sm:px-8 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300 backdrop-blur bg-white/10">
           <div className="flex justify-center mb-6">
             <div className="bg-white/50 p-4 rounded-full shadow-lg backdrop-blur">
               <span className="text-4xl text-blue-400">🎵</span>
