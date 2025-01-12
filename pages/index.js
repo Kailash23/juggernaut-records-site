@@ -45,6 +45,23 @@ export default function Index({ globalData }) {
             A lyrical powerhouse redefining the essence of hip-hop with
             heartfelt lyrics and hard-hitting bars.
           </p>
+
+          {/* Phone Number Section */}
+          <div className="text-white mb-6">
+            <p className="text-lg font-semibold mb-2">
+              Contact: +91 79068 22274
+            </p>
+            <div className="flex justify-center space-x-4">
+              {/* Call Button */}
+              <a
+                href="tel:+917906822274"
+                className="text-white font-bold py-2 px-6 rounded-lg shadow-md transition transform hover:scale-105"
+              >
+                Call Now
+              </a>
+            </div>
+          </div>
+
           <ul className="flex justify-center space-x-6">
             <li>
               <a
