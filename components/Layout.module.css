@@ -3,12 +3,43 @@
   transform: translateX(-50%);
   background: radial-gradient(
       at 71% 77%,
-      #3b1b5a 0%,
-      transparent 30%
+      #ffdee9 0%, /* Light pink */
+      transparent 21%
     ),
-    radial-gradient(at 50% 50%, #ff6600 0%, transparent 40%),
-    radial-gradient(at 24% 10%, #1a1a1a 0%, transparent 50%);
+    radial-gradient(
+      at 36% 47%,
+      #d4fc79 0%, /* Light green */
+      transparent 50%
+    ),
+    radial-gradient(
+      at 54% 29%,
+      #c8e8ff 0%, /* Soft blue */
+      transparent 28%
+    ),
+    radial-gradient(
+      at 45% 51%,
+      #ffe4b5 0%, /* Light peach */
+      transparent 53%
+    ),
+    radial-gradient(
+      at 73% 44%,
+      #ff9a9e 0%, /* Light coral */
+      transparent 54%
+    ),
+    radial-gradient(
+      at 24% 7%,
+      #fbc2eb 0%, /* Soft lavender pink */
+      transparent 40%
+    ),
+    radial-gradient(
+      at 76% 46%,
+      #fae8e0 0%, /* Very light pink */
+      transparent 50%
+    );
+  max-height: 800px;
   height: 80vh;
+  max-width: 1400px;
+  width: 70vw;
   width: 100%;
   filter: blur(44px);
   z-index: -1;
@@ -16,15 +47,45 @@
 
 .colorBackgroundBottom {
   left: 50%;
-  transform: translateX(-50%) rotate(180deg);
+  transform: translateX(-50%) rotate(190deg);
   background: radial-gradient(
-      at 85% 15%,
-      #7308c9 0%,
+      at 83% 25%,
+      #ffebd6 0%, /* Light peach */
+      transparent 21%
+    ),
+    radial-gradient(
+      at 36% 47%,
+      #d4fc79 0%, /* Light green */
+      transparent 50%
+    ),
+    radial-gradient(
+      at 79% 45%,
+      #c8e8ff 0%, /* Soft blue */
+      transparent 28%
+    ),
+    radial-gradient(
+      at 66% 38%,
+      #fff1e6 0%, /* Soft cream */
+      transparent 53%
+    ),
+    radial-gradient(
+      at 89% 13%,
+      #fbc2eb 0%, /* Soft lavender pink */
+      transparent 54%
+    ),
+    radial-gradient(
+      at 24% 7%,
+      #faf7ff 0%, /* Very light lavender */
       transparent 40%
     ),
-    radial-gradient(at 20% 30%, #ff0066 0%, transparent 30%),
-    radial-gradient(at 40% 70%, #1a1a1a 0%, transparent 50%);
-  height: 60vh;
+    radial-gradient(
+      at 76% 46%,
+      #e0f7fa 0%, /* Very light cyan */
+      transparent 50%
+    );
+  height: 600px;
+  max-width: 900px;
+  width: 55vw;
   width: 100%;
   filter: blur(44px);
   z-index: -1;

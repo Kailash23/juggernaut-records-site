@@ -34,12 +34,10 @@ export default function Index({ globalData }) {
         </h2>
 
         {/* Profile: Saurabh Sam (Artist) */}
-        <div className="mb-10 py-10 px-8 bg-gradient-to-br from-purple-600 via-pink-500 to-red-400 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300">
+        <div className="mb-10 py-10 px-8 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300 backdrop-blur bg-white/10">
           <div className="flex justify-center mb-6">
-            <div className="bg-white p-4 rounded-full shadow-lg">
-              <span className="text-4xl text-purple-700">
-                🎤 {/* Icon for lyrical representation */}
-              </span>
+            <div className="bg-white/50 p-4 rounded-full shadow-lg backdrop-blur">
+              <span className="text-4xl text-purple-700">🎤</span>
             </div>
           </div>
           <h3 className="text-3xl font-bold text-white mb-4">Saurabh Sam</h3>
@@ -82,12 +80,10 @@ export default function Index({ globalData }) {
         </div>
 
         {/* Profile: Dxlla (Beat Producer) */}
-        <div className="py-10 px-8 bg-gradient-to-br from-gray-900 via-purple-700 to-blue-500 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300">
+        <div className="py-10 px-8 rounded-3xl shadow-xl text-center transform hover:scale-105 transition-transform duration-300 backdrop-blur bg-white/10">
           <div className="flex justify-center mb-6">
-            <div className="bg-white p-4 rounded-full shadow-lg">
-              <span className="text-4xl text-purple-700">
-                🎵 {/* Icon for beat production */}
-              </span>
+            <div className="bg-white/50 p-4 rounded-full shadow-lg backdrop-blur">
+              <span className="text-4xl text-blue-400">🎵</span>
             </div>
           </div>
           <h3 className="text-3xl font-bold text-white mb-4">Dxlla</h3>
